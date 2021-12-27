@@ -29,6 +29,9 @@ def run_command(cmd):
 
 def build_acc_environment(contest_id):
     print(f"Build acc environment. contest ID: '{contest_id}'")
+    oj_login_cmd = "oj login https://atcoder.jp/"
+    run_command(oj_login_cmd)
+
     apply_config_cmd = "acc config default-task-choice all"
     run_command(apply_config_cmd)
 
