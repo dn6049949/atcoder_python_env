@@ -44,8 +44,8 @@ $ python3 build_contest_env.py abc/abc100
 ├── temp
 │   ├── judge.py
 │   ├── setup.py
-│   ├── temp.py
-│   └── submit.py
+│   ├── submit.py
+│   └── temp.py
 ├── .gitignore
 ├── README.md
 ├── build_contest_env.py
